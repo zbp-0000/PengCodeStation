@@ -1,10 +1,10 @@
 <script setup>
-import G6 from '@/components/G6'
+import Header from '@/components/header/header.vue'
 </script>
 
 <template>
-  <G6 />
+  <Header />
+  <router-view />
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
