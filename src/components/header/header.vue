@@ -2,11 +2,16 @@
 import { ref } from 'vue' 
 const routerData = [{
     name: 'G6可视化',
-    path: '/G6'
+    path: '/g6'
 }, {
     name: 'three可视化',
     path: '/three'
-}]
+}, 
+{
+    name: 'X6可视化',
+    path: '/x6'
+}
+]
 </script>
 
 <template>

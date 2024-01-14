@@ -7,6 +7,10 @@ const routers = [
         component: () => import('@/views/g6/g6.vue')
     },
     {
+        path: '/x6',
+        component: () => import('@/views/x6/x6.vue')
+    },
+    {
         path: '/three',
         component: () => import('@/views/three/three.vue')
     },
