@@ -10,6 +10,10 @@ const routerData = [{
 {
     name: 'X6可视化',
     path: '/x6'
+}, 
+{
+    name: '插槽',
+    path: '/slot'
 }
 ]
 </script>

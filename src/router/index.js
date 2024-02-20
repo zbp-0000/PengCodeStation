@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 
 const routers = [
-    { path: '/', redirect: '/g6' },
+    { path: '/', redirect: '/slot' },
     {
         path: '/g6',
         component: () => import('@/views/g6/g6.vue')
@@ -13,6 +13,10 @@ const routers = [
     {
         path: '/three',
         component: () => import('@/views/three/three.vue')
+    },
+    {
+        path: '/slot',
+        component: () => import('@/views/slot/slot.vue')
     },
 ]
 
