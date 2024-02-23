@@ -21,8 +21,17 @@ export const data = {
     // 边
     edges: [
       {
+        shape: 'edge',
         source: 'node1', // String，必须，起始节点 id
         target: 'node2', // String，必须，目标节点 id
+        label: 'x6',
+        attrs: {
+          // line 是选择器名称，选中的边的 path 元素
+          line: {
+            stroke: '#8f8f8f', // 连接线颜色
+            strokeWidth: 1,
+          },
+        },
       },
     ],
   };
